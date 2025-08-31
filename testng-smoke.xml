@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="api.utils.ExtentReportListener"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="/Users/tahirata/Desktop/Cypress_Training/JSONPlaceholder API Automation">
+        <classes>
+            <class name="api.tests.CreatePostTest"/>
+            <class name="api.tests.GetSinglePostTest"/>
+        </classes>
+    </test>
+</suite>

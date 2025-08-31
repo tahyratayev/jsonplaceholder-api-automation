@@ -1,0 +1,12 @@
+api/tests/GetSinglePostTest.class
+api/tests/UpdatePostTest.class
+api/payload/Post.class
+api/tests/CreatePostTest.class
+api/tests/DeletePostTest.class
+api/tests/JustPositiveScenariosExampleTests.class
+api/endpoins/Routes.class
+api/tests/BaseTest.class
+api/utils/ExtentReportListener.class
+api/tests/GetAllPostsTest.class
+api/utils/FakerUtils.class
+api/endpoins/postEndpoints.class

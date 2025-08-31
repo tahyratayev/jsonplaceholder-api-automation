@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-01T01:57:18 EEST" name="Command line suite" finished-at="2025-09-01T01:57:23 EEST" duration-ms="5146">
+    <groups>
+    </groups>
+    <test started-at="2025-09-01T01:57:18 EEST" name="Command line test" finished-at="2025-09-01T01:57:23 EEST" duration-ms="5146">
+      <class name="api.tests.GetAllPostsTest">
+        <test-method is-config="true" signature="setupBaseData()[pri:0, instance:api.tests.GetAllPostsTest@7fc229ab]" started-at="2025-09-01T01:57:22 EEST" name="setupBaseData" finished-at="2025-09-01T01:57:22 EEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBaseData -->
+        <test-method signature="testGetAllPosts()[pri:1, instance:api.tests.GetAllPostsTest@7fc229ab]" started-at="2025-09-01T01:57:22 EEST" name="testGetAllPosts" finished-at="2025-09-01T01:57:22 EEST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllPosts -->
+        <test-method signature="testGetAllPostsWrongEndpoint()[pri:2, instance:api.tests.GetAllPostsTest@7fc229ab]" started-at="2025-09-01T01:57:22 EEST" name="testGetAllPostsWrongEndpoint" finished-at="2025-09-01T01:57:22 EEST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllPostsWrongEndpoint -->
+        <test-method signature="testGetAllPostsWrongAcceptHeader()[pri:3, instance:api.tests.GetAllPostsTest@7fc229ab]" started-at="2025-09-01T01:57:22 EEST" name="testGetAllPostsWrongAcceptHeader" finished-at="2025-09-01T01:57:22 EEST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllPostsWrongAcceptHeader -->
+      </class> <!-- api.tests.GetAllPostsTest -->
+      <class name="api.tests.DeletePostTest">
+        <test-method is-config="true" signature="setupBaseData()[pri:0, instance:api.tests.DeletePostTest@6e75aa0d]" started-at="2025-09-01T01:57:21 EEST" name="setupBaseData" finished-at="2025-09-01T01:57:21 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBaseData -->
+        <test-method signature="testDeletePostValidId()[pri:1, instance:api.tests.DeletePostTest@6e75aa0d]" started-at="2025-09-01T01:57:21 EEST" name="testDeletePostValidId" finished-at="2025-09-01T01:57:21 EEST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePostValidId -->
+        <test-method signature="testDeletePostInvalidId()[pri:2, instance:api.tests.DeletePostTest@6e75aa0d]" started-at="2025-09-01T01:57:21 EEST" name="testDeletePostInvalidId" finished-at="2025-09-01T01:57:22 EEST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePostInvalidId -->
+        <test-method signature="testDeletePostNonExistingId()[pri:3, instance:api.tests.DeletePostTest@6e75aa0d]" started-at="2025-09-01T01:57:22 EEST" name="testDeletePostNonExistingId" finished-at="2025-09-01T01:57:22 EEST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePostNonExistingId -->
+      </class> <!-- api.tests.DeletePostTest -->
+      <class name="api.tests.UpdatePostTest">
+        <test-method is-config="true" signature="setupBaseData()[pri:0, instance:api.tests.UpdatePostTest@527e5409]" started-at="2025-09-01T01:57:22 EEST" name="setupBaseData" finished-at="2025-09-01T01:57:22 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBaseData -->
+        <test-method signature="testUpdatePost()[pri:1, instance:api.tests.UpdatePostTest@527e5409]" started-at="2025-09-01T01:57:22 EEST" name="testUpdatePost" finished-at="2025-09-01T01:57:23 EEST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePost -->
+        <test-method signature="testUpdatePostInvalidId()[pri:2, instance:api.tests.UpdatePostTest@527e5409]" started-at="2025-09-01T01:57:23 EEST" name="testUpdatePostInvalidId" finished-at="2025-09-01T01:57:23 EEST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePostInvalidId -->
+        <test-method signature="testUpdatePostEmptyFields()[pri:3, instance:api.tests.UpdatePostTest@527e5409]" started-at="2025-09-01T01:57:23 EEST" name="testUpdatePostEmptyFields" finished-at="2025-09-01T01:57:23 EEST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePostEmptyFields -->
+      </class> <!-- api.tests.UpdatePostTest -->
+      <class name="api.tests.CreatePostTest">
+        <test-method is-config="true" signature="setupBaseData()[pri:0, instance:api.tests.CreatePostTest@7a52f2a2]" started-at="2025-09-01T01:57:18 EEST" name="setupBaseData" finished-at="2025-09-01T01:57:18 EEST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBaseData -->
+        <test-method signature="testCreatePost()[pri:1, instance:api.tests.CreatePostTest@7a52f2a2]" started-at="2025-09-01T01:57:18 EEST" name="testCreatePost" finished-at="2025-09-01T01:57:19 EEST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePost -->
+        <test-method signature="testCreatePostMissingTitle()[pri:2, instance:api.tests.CreatePostTest@7a52f2a2]" started-at="2025-09-01T01:57:19 EEST" name="testCreatePostMissingTitle" finished-at="2025-09-01T01:57:19 EEST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePostMissingTitle -->
+        <test-method signature="testCreatePostEmptyFields()[pri:3, instance:api.tests.CreatePostTest@7a52f2a2]" started-at="2025-09-01T01:57:19 EEST" name="testCreatePostEmptyFields" finished-at="2025-09-01T01:57:20 EEST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePostEmptyFields -->
+        <test-method signature="testCreatePostWrongContentType()[pri:4, instance:api.tests.CreatePostTest@7a52f2a2]" started-at="2025-09-01T01:57:20 EEST" name="testCreatePostWrongContentType" finished-at="2025-09-01T01:57:20 EEST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePostWrongContentType -->
+        <test-method signature="testCreatePostMalformedJson()[pri:5, instance:api.tests.CreatePostTest@7a52f2a2]" started-at="2025-09-01T01:57:20 EEST" name="testCreatePostMalformedJson" finished-at="2025-09-01T01:57:21 EEST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePostMalformedJson -->
+      </class> <!-- api.tests.CreatePostTest -->
+      <class name="api.tests.GetSinglePostTest">
+        <test-method is-config="true" signature="setupBaseData()[pri:0, instance:api.tests.GetSinglePostTest@4387b79e]" started-at="2025-09-01T01:57:21 EEST" name="setupBaseData" finished-at="2025-09-01T01:57:21 EEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBaseData -->
+        <test-method signature="testGetSinglePostValidId()[pri:1, instance:api.tests.GetSinglePostTest@4387b79e]" started-at="2025-09-01T01:57:21 EEST" name="testGetSinglePostValidId" finished-at="2025-09-01T01:57:21 EEST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSinglePostValidId -->
+        <test-method signature="testGetSinglePostInvalidId()[pri:2, instance:api.tests.GetSinglePostTest@4387b79e]" started-at="2025-09-01T01:57:21 EEST" name="testGetSinglePostInvalidId" finished-at="2025-09-01T01:57:21 EEST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSinglePostInvalidId -->
+        <test-method signature="testGetSinglePostNonExistingId()[pri:3, instance:api.tests.GetSinglePostTest@4387b79e]" started-at="2025-09-01T01:57:21 EEST" name="testGetSinglePostNonExistingId" finished-at="2025-09-01T01:57:21 EEST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSinglePostNonExistingId -->
+      </class> <!-- api.tests.GetSinglePostTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

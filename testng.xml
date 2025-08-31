@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="api.utils.ExtentReportListener"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="/Users/tahirata/Desktop/Cypress_Training/JSONPlaceholder API Automation">
+        <classes>
+            <class name="api.tests.CreatePostTest">
+                <methods>
+                    <include name="testCreatePost"/>
+                    <include name="testCreatePostMissingTitle"/>
+                    <include name="testCreatePostEmptyFields"/>
+                    <include name="testCreatePostWrongContentType"/>
+                    <include name="testCreatePostMalformedJson"/>
+                </methods></class>
+            <class name="api.tests.DeletePostTest">
+                <methods>
+                    <include name="testDeletePostValidId"/>
+                    <include name="testDeletePostInvalidId"/>
+                    <include name="testDeletePostNonExistingId"/>
+                </methods></class>
+            <class name="api.tests.GetAllPostsTest">
+                <methods>
+                    <include name="testGetAllPosts"/>
+                    <include name="testGetAllPostsWrongEndpoint"/>
+                    <include name="testGetAllPostsWrongAcceptHeader"/>
+                </methods>
+            </class>
+            <class name="api.tests.GetSinglePostTest">
+                <methods>
+                    <include name="testGetSinglePostValidId"/>
+                    <include name="testGetSinglePostInvalidId"/>
+                    <include name="testGetSinglePostNonExistingId"/>
+                </methods>
+            </class>
+            <class name="api.tests.UpdatePostTest">
+            <methods>
+                <include name="testUpdatePost"/>
+                <include name="testUpdatePostInvalidId"/>
+                <include name="testUpdatePostEmptyFields"/>
+            </methods>
+            </class>
+            <class name="api.tests.JustPositiveScenariosExampleTests">
+                <methods>
+                    <include name="testCreatePost"/>
+                    <include name="testGetSinglePost"/>
+                    <include name="testDeletePost"/>
+                    <include name="testGetAllPosts"/>
+                    <include name="testUpdatePost"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
