@@ -67,7 +67,8 @@ mvn clean test -DsuiteXmlFile=testng-regression.xml
 🤖 AI Disclosure
 
 This project was partially assisted using ChatGPT (OpenAI) to:
-Create some negative scenarios except basic ones
+- Create some negative scenarios except basic ones
+- maven-tests.yml file 
 
 
 📧 Author
